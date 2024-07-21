@@ -112,8 +112,8 @@ html {
 }
 
 .main-nav li a {
-    height: 70px;
-    line-height: 70px;
+    height: 50px;
+    line-height: 50px;
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
@@ -132,18 +132,18 @@ html {
 /* Sidebar Menu */
 
 .menu .image {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .menu .image img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    width: 220px;
+    height: 250px;
+    border-radius: 5%;
     text-align: center;
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 40px 0px 0px 0px;
 }
 
 .menu .author-content h4 {
@@ -280,12 +280,20 @@ html {
     line-height: 60px;
 }
 
-
+.bo{
+     padding-bottom: 90px;
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+    
+}
 /* Section */
+.about-me img{
+      
+;margin-bottom: 10%;
+}
 
 .section {
     color: #fff;
-    width: 55%;
+    width: 100%;
     right: 10%;
     left: 35%;
     position: relative;
@@ -293,10 +301,21 @@ html {
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
+.about-me .container .section-heading  {
+   text-align: start;
+    width: 100%
+}
+.about-me {
+   text-align: ;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
 
 .section-heading {
     text-align: center;
     padding: 80px 45px;
+    
 }
 
 .section-heading h2 {
@@ -309,7 +328,7 @@ html {
     width: 60px;
     height: 3px;
     background-color: #a43f49;
-    margin: 10px auto;
+    margin: 10px ;
 }
 
 .section-heading span {
@@ -372,16 +391,18 @@ button:hover {
 .left-image img,
 .right-image img {
     border-radius: 5px;
+    width: 20p
 }
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .right-image-post p,
 .left-image-post p {
     margin-top: 20px;
+    margin-bottom: 20px
 }
 
 .right-image-post .white-button,
@@ -491,7 +512,7 @@ section.my-work .section-heading {
     padding-bottom: 3px;
     font-size: 15px;
     font-weight: 700;
-    border-bottom: 2px solid transparent;
+    border-bottom: px solid transparent;
     transform: ease-in-out 0.5s;
     cursor: pointer;
 }
@@ -519,7 +540,9 @@ section.my-work .section-heading {
 .isotope-toolbar a {
     color: #fff;
 }
-
+h2{
+        text-align: start
+    }
 .isotope-item {
     position: relative;
     width: 48%;
@@ -634,6 +657,16 @@ figure.snip1321.hover:after {
 
 section.contact-me {
     border-bottom: none;
+    text-align: start
+}section.contact-me h2 {
+    
+    text-align: center
+}section.contact-me h2 {
+    
+    text-align: center
+}section.contact-me .line-dec {
+    
+   margin-left: 40%
 }
 
 #contact input {
@@ -681,12 +714,22 @@ section.contact-me {
     .menu {
         left: 5%;
     }
+    
+@media screen and (max-width: 768px) {
+    h2{
+        font-size: 15px
+    }
+    }
 
     .section {
         color: #fff;
         width: 65%;
         right: 5%;
         left: 30%;
+        
+    }
+    h2{
+        text-align: start
     }
 }
 
@@ -696,7 +739,9 @@ section.contact-me {
         height: 36px;
         line-height: 36px;
     }
-
+h2{
+        text-align: left
+    }
     .menu .social-network ul li {
         margin: 0;
     }
@@ -715,6 +760,7 @@ section.contact-me {
     .left-image-post h4 {
         margin-top: 0px;
     }
+    
 
     .right-image-post p,
     .left-image-post p {
@@ -725,7 +771,9 @@ section.contact-me {
     .left-image-post .white-button {
         margin-top: 25px;
     }
-
+h2{
+        text-align: left
+    }
 }
 
 .menu .container {
@@ -738,7 +786,9 @@ section.contact-me {
         width: 25%;
     }
 }
-
+h2{
+        text-align: start
+    }
 #menu-toggle,
 #menu-close {
     display: none;
@@ -785,6 +835,9 @@ section.contact-me {
 
     .responsive-nav {
         display: inline-block;
+    }
+    .section-heading h2{
+        text-align: start
     }
     .section {
         width: 94%;
