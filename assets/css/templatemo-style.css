@@ -612,6 +612,38 @@ figure.snip1321 i {
   border-radius: 5px;
   color: #fff;
 }
+
+/* Center the container */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* Full viewport height */
+}
+
+/* Download button styles */
+.download-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #a33e48; /* Text color */
+  background-color: #ffffff; /* White background */
+  border: 2px solid #a33e48; /* Border color */
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+
+  /* Center the text horizontally and vertically */
+  text-align: center;
+  line-height: 1;
+}
+
+/* Hover effect */
+.download-button:hover {
+  background-color: #a33e48; /* Hover background color */
+  color: #ffffff; /* Hover text color */
+}
 figure.snip1321:after {
   background-color: #ffffff;
   position: absolute;
